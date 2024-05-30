@@ -1,0 +1,101 @@
+*{
+    background-color: rgb(255, 153, 0);
+
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.dado{
+    width: 100px;
+    height: 100px;
+
+    border-radius: 10px;
+    background-color: white;
+}
+
+.punto{
+    width: 20px;
+    height: 20px;
+
+    background-color: black;
+
+    border-radius: 50%;
+    margin: 10px;
+}
+
+#dado1{
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.columna{
+    height: 27%;
+
+    background-color: transparent;
+
+    /*outline: 1px solid black;*/
+}
+
+#columna3-dado2{
+    display: flex;
+    justify-content: end;
+}
+
+
+#columna2-dado3{
+    display: flex;
+    justify-content: center;
+}
+#columna3-dado3{
+    display: flex;
+    justify-content: end;
+}
+
+
+#columna1-dado4{
+    display: flex;
+    justify-content: space-around;
+}
+#columna3-dado4{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#columna1-dado5{
+    display: flex;
+    justify-content: space-around;
+}
+#columna2-dado5{
+    display: flex;
+    justify-content: center;
+}
+#columna3-dado5{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#columna1-dado6{
+    display: flex;
+    justify-content: space-around;
+}
+#columna2-dado6{
+    display: flex;
+    justify-content: space-around;
+}
+#columna3-dado6{
+    display: flex;
+    justify-content: space-around;
+}
